@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 18px;
+}
+
+#section2{
+    font-size: 24px;
+}
+
+body{
+    background-color: #222831;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+header{
+    margin-top: -30px;
+    border-radius: 15px;
+    background-color:#393E46;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: -30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #EEEEEE;
+    text-align: right;
+}
+
+.projectlink{
+    color: #EEEEEE;
+    font-size: 24px;
+}
+
+header h1{
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.navbar{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color:#333;
+}
+
+.navbar .topright{
+    color: #EEEEEE;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar .topright:hover{
+    background-color: sandybrown;
+    color: #333;
+}
+
+.column{
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #EEEEEE;
+    float: left;
+    background-color: #393E46;
+    border-radius: 15px;
+    
+    width: 48%;
+    padding: 0 10px;
+}
+
+.column2{
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #EEEEEE;
+    float: left;
+    background-color: #393E46;
+    border-radius: 15px;
+    
+    width: 98%;
+    padding: 0 10px;
+}
+
+.row{
+    margin-top: 1%;
+    border: sandybrown;
+    border-width: 3px;
+}
+.row::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.chunk{
+    padding: 16px;
+    text-align: left;
+    background-color: #393E46;
+}
+
+img{
+    border-radius: 30px;
+    border: 4px solid sandybrown;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid sandybrown;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid sandybrown; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:sandybrown;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+
